@@ -1,0 +1,24 @@
+{
+  "name": "orbit-project-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test": "node --test src/service.test.js"
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "lucide-react": "^0.468.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.18.5",
+    "recharts": "^3.10.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.9.10",
+    "vite": "^7.3.7"
+  }
+}
